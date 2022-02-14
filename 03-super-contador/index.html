@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar!</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>
+                Início:
+                <input type="number" name="inicio" id="txti" min="1">
+            </p>
+            <p>
+                Fim:
+                <input type="number" name="fim" id="txtf" min="1">
+            </p>
+            <p>
+                Passo:
+                <input type="number" name="passo" id="txtp" min="1">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()"><!--Para disparar o evento 'contar' no JS-->
+            </p>
+        </div>
+        <div id="res">
+            Preparando a contagem:
+        </div>
+    </section>
+    <footer>
+        <header>
+            <h4>Contatos:</h4>
+        </header>
+        <ul>
+            <li>
+                <a href="https://github.com/rubens-fs" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/rubens-fs/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
